@@ -1,6 +1,6 @@
-# NgspotifyNew
+# NgSpotifyNew
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1. Updated in VSC.
+This project is updated to Angular Version 14 and was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1. Updated in VSC.
 
 ## Development server
 
@@ -12,7 +12,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Since Angular 13 `ng build` no longer uses the `--prod` flag. Now requires a different `ng build` followed by the new flag: `--configuation production`.
 
 ## Running unit tests
 
