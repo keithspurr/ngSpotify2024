@@ -12,7 +12,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Since Angular 13 `ng build` no longer uses the `--prod` flag. Now requires a different `ng build` followed by the new flag: `--configuation production`.
+Since Angular 13 `ng build` no longer uses the `--prod` flag. Now use `ng build` followed by the new flag: `--configuation production`.
 
 ## Running unit tests
 
