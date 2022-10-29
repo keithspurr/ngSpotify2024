@@ -1,6 +1,6 @@
 # NgSpotifyNew
 
-This project is updated to Angular Version 14 and was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1. Updated in VSC.
+This project is now updated to Angular Version 14 and was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1. Updated in VSC.
 
 ## Development server
 
