@@ -1,10 +1,11 @@
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import {Injectable, OnInit} from '@angular/core';
-import { HttpClient, HttpHeaders} from '@angular/common/http';
+import { Observable, Timestamp } from '../../../node_modules/rxjs';
 import { map, mergeMap } from 'rxjs/operators';
-import { Observable, Timestamp} from '../../../node_modules/rxjs';
+
 import {Auth} from '../../../Auth';
-import { of } from 'rxjs';
 import { from } from 'rxjs';
+import { of } from 'rxjs';
 
 @Injectable()
 export class SpotifyService {

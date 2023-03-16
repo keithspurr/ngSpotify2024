@@ -28,7 +28,7 @@
             "scripts": []
           },
           "configurations": {
-            "production": {
+             "production": {
               "baseHref": "https://client-work.ksqdesign.com/ngspotify/",
               "fileReplacements": [
                 {
@@ -44,6 +44,26 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true
+            },
+            "development": {
+              "optimization": false,
+              "sourceMap": true,
+              "namedChunks": true,
+              "extractLicenses": true,
+              "vendorChunk": true,
+              "buildOptimizer": false,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "6mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
             }
           }
         },
@@ -55,6 +75,9 @@
           "configurations": {
             "production": {
               "browserTarget": "ngspotify-new:build:production"
+            },
+            "development": {
+              "browserTarget": "ngspotify-new:build:development"
             }
           }
         },

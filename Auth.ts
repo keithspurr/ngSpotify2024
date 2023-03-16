@@ -5,7 +5,6 @@ export class Auth  {
         scope: string;
 
 
-
     constructor() {
         this.access_token = null;
         this.token_type = null;
