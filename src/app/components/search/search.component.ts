@@ -3,7 +3,6 @@ import {SpotifyService} from '../../services/spotify.service';
 import {Artist} from '../../../../Artist';
 
 @Component({
-    moduleId: module.id,
     // tslint:disable-next-line:component-selector
     selector: 'search',
     templateUrl: 'search.component.html'

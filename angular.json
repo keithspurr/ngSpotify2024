@@ -16,7 +16,7 @@
             "outputPath": "dist/ngspotify-new",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfills": "src/polyfills.ts",
+            "polyfills": "zone.js",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
@@ -70,28 +70,28 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngspotify-new:build"
+            "buildTarget": "ngspotify-new:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngspotify-new:build:production"
+              "buildTarget": "ngspotify-new:build:production"
             },
             "development": {
-              "browserTarget": "ngspotify-new:build:development"
+              "buildTarget": "ngspotify-new:build:development"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngspotify-new:build"
+            "buildTarget": "ngspotify-new:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "main": "src/test.ts",
-            "polyfills": "src/polyfills.ts",
+            "polyfills": "zone.js",
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [

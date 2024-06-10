@@ -1,5 +1,5 @@
 import { Component, OnInit, Directive, Injectable  } from '@angular/core';
-import { HttpClient, HttpHeaders} from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import {Router, ActivatedRoute} from '@angular/router';
 import {Artist} from '../../../../Artist';
 import {Album} from '../../../../Album';
@@ -8,7 +8,6 @@ import { map } from 'rxjs/operators';
 
 
 @Component({
-    moduleId: module.id,
     // tslint:disable-next-line:component-selector
     selector: 'artist',
     templateUrl: 'artist.component.html',
