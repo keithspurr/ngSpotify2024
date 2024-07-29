@@ -8,8 +8,12 @@ For this project to run, you must deploy an Express app called 'spot-auth' which
 
 You must first of all generate the client_id and client_secret variables from your own Spotify Developer account.  
 
-Now that Heroku is no longer free, Railway has a free tier which can serve this requirement. Add your Express server (after compiling 'Spot-Auth') URL to line 89 of 'spotify.service.ts' in the 'services' folder of this project. eg:
- this.authUrl = '[your-prouction-server-url]'; 
+Now that Heroku is no longer free, Railway has a free tier which can serve this requirement. Add your Express server (after compiling 'Spot-Auth') URL 
+to LINE 89 of 'spotify.service.ts' in the 'services' folder of this project. 
+eg: 
+app/services/'spotify.service.ts'
+LINE 89:
+this.authUrl = '[your-prouction-server-url]'; 
 
 This project will then run live or locally via a VSC Angular setup.
 
