@@ -86,7 +86,7 @@ export class SpotifyService {
     // use custom auth service to retrieve access token from spotify
     // This prevents my id and secret from being exposed to the public
     getAccessToken() {
-        this.authUrl = 'https://spot-auth-production.up.railway.app/api/authorize';
+      this.authUrl = '[your-spot-auth-url]';
         return this._http.get(this.authUrl);
     }
     // {if (this.auth.access_token == null || this.authTime < (new Date().getSeconds() - 60))
