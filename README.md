@@ -4,8 +4,13 @@ This project is now updated to Angular Version 18 using VSC on MacOS and was gen
 
 ## Deploy a service
 
-For this project to run, you must deploy an Express app called 'spot-auth' which you can clone from my repository, or from Michael Dill's original, which sends two variables - a Spotify client_id and a Spotify client_secret via a deployment platform such as Railway. You must first of all generate the client_id and client_secret variables from your own Spotify Developer account.  Railway has a free tier which can serve this requirement. Add your Node Express (from 'Spot-Auth') server URL to line 89 of 'spotify.service.ts' in the 'services' folder.
-eg: this.authUrl = '[your-prouction-server-url]';
+For this project to run, you must deploy an Express app called 'spot-auth' which you can clone from my repository, or from Michael Dill's original, which sends two variables - a Spotify client_id and a Spotify client_secret via a deployment platform such as Railway. 
+
+You must first of all generate the client_id and client_secret variables from your own Spotify Developer account.  
+
+Now that Heroku is no longer free, Railway has a free tier which can serve this requirement. Add your Express server (after compiling 'Spot-Auth') URL to line 89 of 'spotify.service.ts' in the 'services' folder of this project. eg:
+- this.authUrl = '[your-prouction-server-url]'; -
+
 This project will then run live or locally via a VSC Angular setup.
 
 ## Development server
